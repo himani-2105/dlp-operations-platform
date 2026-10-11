@@ -1,0 +1,23 @@
+# secrets and local configuration
+.env
+.env.*
+!.env.example
+*.secret
+secret.key
+first_run_credentials*
+# databases, WAL files and backups (contain incident data and password hashes)
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+*.bak-*
+backups/
+instance/
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.git-dlp/
+backup_v1/

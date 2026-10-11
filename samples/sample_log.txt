@@ -1,0 +1,4 @@
+2026-10-10 INFO payment ok card=4111 1111 1111 1111 user=test.user@example.com
+KYC upload PAN: ABCPE1234F phone +91 9876543210
+Aadhaar on file: 234567890124
+Order id 1234 5678 9012 (fails checksum, ignored)
